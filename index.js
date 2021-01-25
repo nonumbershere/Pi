@@ -17,7 +17,7 @@ const readline = require('readline').createInterface({
     output: process.stdout
 });
 const prefix = '---.'
-const token = 'ODAyNDA3ODQzMTU5MzQzMTE1.YAuyiQ.ypF7357TEwDJvML4pXLOX8w6PPE';
+const token = 'TOKEN';
 const bot = new discord.Client();
 bot.on('message', msg => {
     if (msg.author.tag == 'Server Viewer#6770') {
